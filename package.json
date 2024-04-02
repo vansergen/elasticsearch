@@ -8,7 +8,8 @@
     "preinstall:clean": "rm -rf node_modules package-lock.json",
     "prepare": "husky",
     "prettier": "prettier -c .",
-    "prettier:write": "prettier -c -w ."
+    "prettier:write": "prettier -c -w .",
+    "test": "docker build -t vansergen/elasticsearch:test ."
   },
   "license": "AGPL-3.0-only",
   "devDependencies": {
