@@ -24,3 +24,6 @@ jobs:
 
       - name: commitlint
         run: npm run commitlint
+
+      - name: Test build
+        run: npm test
