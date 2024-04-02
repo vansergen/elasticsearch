@@ -9,7 +9,7 @@
     "prepare": "husky",
     "prettier": "prettier -c .",
     "prettier:write": "prettier -c -w .",
-    "test": "docker build -t vansergen/elasticsearch:test ."
+    "test": "docker build -t ghcr.io/vansergen/elasticsearch:test ."
   },
   "license": "AGPL-3.0-only",
   "devDependencies": {
