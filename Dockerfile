@@ -1,5 +1,5 @@
 # https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
-ARG ELASTIC_VERSION=8.13.1
+ARG ELASTIC_VERSION=8.14.3
 
 FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
 
