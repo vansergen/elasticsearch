@@ -20,6 +20,3 @@ RUN elasticsearch-plugin install -b \
   mapper-size \
   repository-hdfs \
   store-smb
-
-LABEL org.opencontainers.image.licenses AGPL-3.0-only
-LABEL org.opencontainers.image.source https://github.com/vansergen/elasticsearch
